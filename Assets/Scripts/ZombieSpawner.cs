@@ -20,6 +20,8 @@ public class ZombieSpawner : MonoBehaviour {
 		round = GameObject.Find ("Round").GetComponent<Text>();
 		round.text = "1";
 		remainingZombies = 10;
+		roundNumber = 1;
+		numZombies = 0;
 	}
 	
 	// Update is called once per frame
